@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gridview_user_interface</title>
+    <link rel="stylesheet" href="./../css/landing.css"/>
+    <script src="./../js/landing.js"></script>
+</head>
+<body onload="fetchShows()">
+<div align="center">
+    <div id="label_div" style="text-align: center; color: darkgray" class="marquee">
+        <marquee width="50%" direction="right"><h1><b>Media Manager</b></h1></marquee>
+    </div>
+    <div id="shows_div" class="grid_test1" align="center" >
+        <div class="box">
+            <img src="../img/dragon3.jpg" >
+            <div class="box_label"><h3>Dragon 3</h3></div>
+        </div>
+        <div class="box">
+            <img src="../img/Trolls2.jpg">
+            <div class="box_label"><h3>Trolls 2</h3></div>
+        </div>
+        <div class="box">
+            <img src="../img/not-available.jpg" >
+            <div class="box_label"><h3>Trolls 2</h3></div>
+        </div>
+        <div class="box">
+            <img src="../img/dragon3.jpg" style="max-height: 90%">
+            <div class="box_label" style="max-height: 10%">Dragon 3</div>
+        </div>
+        <div class="box">
+            <img src="../img/Trolls2.jpg" style="max-height: 90%">
+            <div class="box_label" style="max-height: 10%">Trolls 2</div>
+        </div>
+        <div class="box">
+            <img src="../img/not-available.jpg" style="max-height: 90%">
+            <div class="box_label" style="max-height: 10%">Not Available</div>
+        </div>
+    </div>
+
+    <!-- TODO: Just for Information Different ways of creating grid-->
+    <!--<div id="shows_div">
+        <div class="row">
+            <div class="column">
+                <div class="box">
+                    <img src="../img/dragon3.jpg" style="max-height: 90%">
+                    <div class="box_label" style="max-height: 10%">Dragon 3</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <img src="../img/Trolls2.jpg" style="max-height: 90%">
+                    <div class="box_label" style="max-height: 10%">Trolls 2</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <img src="../img/not-available.jpg" style="max-height: 90%">
+                    <div class="box_label" style="max-height: 10%">Not Available</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button style="background-image: url('../img/not-available.jpg'); ">Not Available</button>
+            </div>
+            <div class="column">
+                <button style="background-image: url('../img/dragon3.jpg'); ">Dragon 3</button>
+            </div>
+            <div class="column">
+                <button style="background-image: url('../img/Trolls2.jpg'); ">Trolls</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <a href="https://www.w3schools.com/cssref/pr_class_cursor.asp" >
+                    <img src="../img/dragon3.jpg"/>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.w3schools.com/cssref/pr_class_cursor.asp" >
+                    <img src="../img/Trolls2.jpg"/>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.w3schools.com/cssref/pr_class_cursor.asp" >
+                    <img src="../img/not-available.jpg"/>
+                </a>
+            </div>
+        </div>
+    </div>-->
+    //endregion
+</div>
+</body>
+</html>
